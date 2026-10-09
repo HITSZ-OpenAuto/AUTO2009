@@ -1,73 +1,55 @@
-# CODE1234 - 课程中文名称
+# AUTO2009 - 机器人设计与实践
 <!-- TOML-META: repo_type="normal" -->
+<!-- TOML-BADGES: source="grades_summary" -->
+![成绩构成](https://img.shields.io/badge/成绩构成-gold)
+待补
 
-在这里填写课程的简要介绍。
-可以换行。
+这门课是机器人与智能装备专业自动化方向的限选课，2026 年改为大二课程，开设定位相当于机器人学导论，但实际上是机器人学的拓展。使用的教材为 MIT 的 ![Underactuated Robotics](https://underactuated.mit.edu)，授课范围为前八章。
+没有作业，包含实验。
 
 ## 授课教师
 
-<!-- TOML-LECTURERS: part="intro" -->
-
-<!-- TOML-ITEM: id="lecturers-intro-1" -->
-
-教师团队总体介绍。
-人数: 3人
-
-> 文 / 管理员，2025-01
-
-<!-- TOML-ITEM: id="lecturers-intro-2" -->
-
-研究方向: 机器学习、计算机视觉
-
-> 文 / 管理员，2025-01
-
 <!-- TOML-LECTURERS: part="items" -->
-- 教师A
+- 熊小刚
   <!-- TOML-ITEM: id="review-教师A-1" -->
-  - 教师评价内容。
-  - 可以多行。
-    > 文 / [昵称](https://github.com/xxx)，2025-03
-  <!-- TOML-ITEM: id="review-教师A-2" -->
-  - 另一条评价
-    > 文 / 匿名，2025-01
-- 教师B
-  <!-- TOML-ITEM: id="review-教师B-1" -->
-  - 教师B的评价
-    > 文 / 学生，2024-12
-<!-- TOML-LECTURERS: part="summary" -->
-
-<!-- TOML-ITEM: id="lecturers-summary-1" -->
-
-教师团队总结。
-整体教学水平较高。
-
-> 文 / 管理员，2025-01
-
-<!-- TOML-ITEM: id="lecturers-summary-2" -->
-
-建议: 尽早选课，晚了好老师就没了
+  - 章节顺序按照教材，小节内思路有变化。念PPT自娱自乐为主，基本上不补充前置知识，有时扯两嘴强化学习和多体运动学，但没有实质性内容。使用豆包把教材转为PPT，起初不校对让学生看Latex代码，后面改正。
+    > 文 / [shiftcarl](https://github.com/shiftcarl)，2026-07
 
 ## 考核方式
 <!-- TOML-SECTION: title="考核方式" -->
-
 <!-- TOML-ITEM: id="item-考核方式-1" -->
+2024 级的考核分为课程设计和实验两方面。
+课程设计为单人独立选择一个仿真项目完成，并通过报告展示工作，具体见仓库。老师推荐用 Drake，但很多同学都是用 AI 从头搓的。
+实验内容为 ROS 仿真配置和 MPC 参数调整，不需要理解 MPC，不提供报告模板自由发挥。
+> 文 / [shiftcarl](https://github.com/shiftcarl)，2026-07
 
-• 平时成绩: 30%
-• 期中考试: 30%
-• 期末考试: 40%
+## 课程简介
+<!-- TOML-SECTION: title="课程简介" -->
+<!-- TOML-ITEM: id="item-课程简介-1" author_type="list" -->
+### 关于教材
+2024 级自动化方向的培养方案中，这门课的前置知识严重缺失，而且引入大量新概念。绪论PPT中认为学生应该先学习理论力学、经典控制、数值优化乃至强化学习，但显然必修中对应的只有大学物理、电路与电子学、程序设计与实践，而理论力学是机械方向的限选，经典控制是大三的课程。
+前八章内容：
+- 欠驱动系统的定义、重要性、特点
+- 单摆，了解经典控制，引入能量成型控制
+- 2~3 自由度欠驱动模型，引入局部线性化分析可控性和部分反馈线性化解耦
+- 行走模型和跳跃/跑步模型，引入周期稳定和冲量
+- 用质心思想研究复杂机器人足系统
+- 为之前的模型加入随机性
+- 动态规划/全局优化，引入 HJB 方程
+- 推导约束下的 LQR 控制器
+> 文 / [shiftcarl](https://github.com/shiftcarl)，2026-07
 
-> 文 / 昵称A，2025-03
-
-<!-- TOML-ITEM: id="item-考核方式-2" -->
-
-• 2024年: 期末 60% + 平时 40%
-
-> 文 / 昵称B，2024-01
+<!-- TOML-ITEM: id="item-课程简介-2" author_type="list" -->
+### 关于实验
+应该可以后续自己补完
+- 熟悉 Linux 和 ROS 的使用，成功运行 launch 文件（2 学时）
+- 熟悉 rosbag 和 rqt，调整车载倒立摆模型的 MPC 控制参数（2 学时）
+（貌似滞后启动控制，初状态还不同难以复现，求大佬出手）
+- 熟悉 gazebo，调整两足机器人模型的控制参数使其能跨过台阶障碍（4 学时）
+（手操累加式控制是最大不稳定因素来源）
+> 文 / [shiftcarl](https://github.com/shiftcarl)，2026-07
 
 ## 学习资料
 <!-- TOML-SECTION: title="学习资料" -->
-
 <!-- TOML-ITEM: id="item-学习资料-1" -->
-
-• 教材: 《书名》
-• 参考资料链接
+• B 站有转载 MIT 的课，![Underactuated Robotics](https://www.bilibili.com/video/BV1sS411K7dn/?spm_id_from=333.337.search-card.all.click&vd_source=a1cfc84421a081dcc6a10bf45b247be4)
