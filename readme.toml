@@ -4,7 +4,7 @@ repo_type = "normal"
 description = """
 待补
 
-这门课是机器人与智能装备专业自动化方向的限选课，2026 年改为大二课程，开设定位相当于机器人学导论，但实际上是机器人学的拓展。使用的教材为 MIT 的 ![Underactuated Robotics](https://underactuated.mit.edu)，授课范围为前八章。
+这门课是机器人与智能装备专业自动化方向的限选课，2026 年改为大二课程，开设定位相当于机器人学导论，但实际上是机器人学的拓展。使用的教材为 MIT 的 [Underactuated Robotics](https://underactuated.mit.edu)，授课范围为前八章。
 没有作业，包含实验。
 """
 
@@ -67,4 +67,4 @@ author = [
 title = "学习资料"
 
 [[sections.items]]
-content = "• B 站有转载 MIT 的课，![Underactuated Robotics](https://www.bilibili.com/video/BV1sS411K7dn/?spm_id_from=333.337.search-card.all.click&vd_source=a1cfc84421a081dcc6a10bf45b247be4)"
+content = "• B 站有转载 MIT 的课，[Underactuated Robotics](https://www.bilibili.com/video/BV1sS411K7dn/?spm_id_from=333.337.search-card.all.click&vd_source=a1cfc84421a081dcc6a10bf45b247be4)"
