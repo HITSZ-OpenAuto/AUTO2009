@@ -1,4 +1,4 @@
-# AUTO2009 - 机器人设计与实践
+# AUTO2009 - 机器人力学分析
 <!-- TOML-META: repo_type="normal" -->
 
 待补
