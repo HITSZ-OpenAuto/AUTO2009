@@ -1,0 +1,47 @@
+{
+  ".github/workflows/trigger-workflow.yml": {
+    "size": 552,
+    "time": 1794023055,
+    "hash": "78499644068246313b2f9d3bfcba71136997fd7c"
+  },
+  "LICENSE": {
+    "size": 20844,
+    "time": 1781832553,
+    "hash": "73c898e8be0c32130a3a2452cd1703c19ce06812"
+  },
+  "README.md": {
+    "size": 3310,
+    "time": 1791596886,
+    "hash": "20430405bc934d47a9af041490bec497955df043"
+  },
+  "assignments/2026_shiftcarl/一份过程错误的课设.zip": {
+    "size": 1917469,
+    "time": 1791565597,
+    "hash": "ebaac71eceaf54718d49b163ba8dc3be4c38676a"
+  },
+  "assignments/2026_shiftcarl/课程设计报告模版.md": {
+    "size": 4210,
+    "time": 1791565597,
+    "hash": "ebaac71eceaf54718d49b163ba8dc3be4c38676a"
+  },
+  "assignments/2026_shiftcarl/课程设计要求.pdf": {
+    "size": 254340,
+    "time": 1791565597,
+    "hash": "ebaac71eceaf54718d49b163ba8dc3be4c38676a"
+  },
+  "notes/2026_shiftcarl.pdf": {
+    "size": 6464191,
+    "time": 1791565597,
+    "hash": "ebaac71eceaf54718d49b163ba8dc3be4c38676a"
+  },
+  "readme.toml": {
+    "size": 3288,
+    "time": 1791596886,
+    "hash": "20430405bc934d47a9af041490bec497955df043"
+  },
+  "slides/2026_shiftcarl/24级绪论PPT.pdf": {
+    "size": 12958644,
+    "time": 1791565597,
+    "hash": "ebaac71eceaf54718d49b163ba8dc3be4c38676a"
+  }
+}
